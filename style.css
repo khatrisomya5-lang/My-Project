@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: seagreen;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: darkseagreen;
+  padding: 15px 20px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+nav a {
+  color: darkgreen;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: white;
+  background: black;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px black;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px auto;
+  max-width: 600px;
+}
+button {
+  padding: 12px 30px;
+  background: linear-gradient(45deg,#ff6a00,#ee0979);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  box-shadow: 0 0 15px rgba(255,106,0,0.7);
+  transform: scale(1.05);
+}
+
+/* Features */
+.features {
+  text-align: center;
+  padding: 60px 20px;
+}
+.features h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.skill-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg,#ff6b6b,#f06595);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.skill-btn:hover {
+  transform: scale(1.1);
+}
+
+/* About */
+.about-me {
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Footer */
+footer {
+  background: darkseagreen;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+h2{
+    text-align: center;
+}
